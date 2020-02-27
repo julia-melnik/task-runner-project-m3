@@ -6,7 +6,7 @@
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Source+Sans+Pro&display=swap"  type='text/css'>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="style.scss">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -14,135 +14,133 @@
 <body>
 <header>
     <nav>
-      <div class="logo text-warning">GOLDEN</div>
-          <div class="menu">
-             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="logo text-warning">GOLDEN</div>
+            <div class="menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Contact</a></li>
+               </ul>
           </div>
     </nav>
     <div id="main-slider">
-             <div class="carousel-item active">
-                     <div class="carousel-caption">
-                       <h2>Welcome to Our Studio!</h2><br>
-                       <h1>IT'S NICE TO MEET YOU</h1><br>
-                         <a class="btn bg-warning text-light" href="#">TELL ME MORE</a>
-                       </div>
-             </div>
-
-         </div>
-     </header>
-
-     <section class="services py-5 color">
-         <div class="container">
-           <div class="title  text-center p-3 mb-3 mt-5">
-              <h3 class="font-weight-bold">Services</h3>
-              <h5 class="text-secondary">Proin iaculis purus consequat sem cure</h5>
-            </div>
-             <div class="row ">
-                 <div class="col-md-4 col-xs-1 ">
-                     <div class="card px-5 mb-3 mt-3  border-0 ">
-                       <div class="col-md-2 d-xs-none pos">
-            	             <i class="ci fas fa-laptop p-3 bg-warning text-white rounded-circle  text-center"></i>
-            	         </div>
-                       <div class="card-body">
-                         <h5 class="card-title font-weight-bold text-center">Responsive Web</h5>
-         	              <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                   	</div>
-                     </div>
-                 </div>
-                 <div class="col-md-4 col-xs-1 ">
-                     <div class="card px-5 mb-3 mt-3  border-0 ">
-                       <div class="col-md-2 d-xs-none pos">
-            	             <i class="ci fas fa-lock p-3 bg-warning text-white rounded-circle justify-content-center"></i>
-            	         </div>
-                         <div class="card-body">
-                             <h5 class="card-title font-weight-bold text-center">Web Security</h5>
-                            <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-4 col-xs-1 ">
-                     <div class="card px-5 mb-3 mt-3 border-0">
-                       <div class="col-md-2 d-xs-none pos">
-            	             <i class="ci fas fa-cart-plus p-3 bg-warning text-white rounded-circle"></i>
-            	         </div>
-                         <div class="card-body">
-                             <h5 class="card-title font-weight-bold text-center">E-commerse</h5>
-                             <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-        </div>
-     </section>
- <section class="portfolio bg-light">
-     <div class="container">
-        <div class="title text-center p-3 mb-3 mt-3">
-           <h3 class="font-weight-bold  mt-5">OUR PORTFOLIO</h3>
-           <h5>Proin iaculis purus consequat sem cure</h5>
+        <div class="carousel-item active">
+            <div class="carousel-caption">
+                <h2>Welcome to Our Studio!</h2><br>
+                <h1>IT'S NICE TO MEET YOU</h1><br>
+                <a class="btn bg-warning text-light" href="#">TELL ME MORE</a>
+           </div>
        </div>
-       <div class="row">
-          <div class="col-sm-6 col-lg-4 p-3 mb-3">
-              <div class="card">
-                 <img class="card-img" src="https://i.postimg.cc/kXzb84G1/brown-ceramic-cup-beside-notebook-and-pen-2180092.jpg" alt="book">
-                     <div class="card-body">
-                         <h5 class="card-title text-center font-weight-bold">AMORE</h5>
-                            <p class="card-text text-center">Check it</p>
-                     </div>
-              </div>
-          </div>
-         <div class="col-sm-6 col-lg-4 p-3 mb-3">
-             <div class="card">
-                <img class="card-img" src="https://i.postimg.cc/qBYRDFrg/analog-binder-blank-book-236111.jpg" alt="book">
-                    <div class="card-body">
-                        <h5 class="card-title text-center font-weight-bold">AMORE</h5>
-                         <p class="card-text text-center">Check it</p>
-                     </div>
-             </div>
-         </div>
-         <div class="col-sm-6 col-lg-4 p-3 mb-3 ">
-             <div class="card">
-                 <img class="card-img" src="https://i.postimg.cc/C15hmG6j/black-ball-point-pen-with-brown-spiral-notebook-733852.jpg" alt="book">
-                     <div class="card-body">
-                         <h5 class="card-title text-center font-weight-bold">AMORE</h5>
-                         <p class="card-text text-center">Check it</p>
-                     </div>
-             </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 p-3 mb-3">
-             <div class="card">
-                 <img class="card-img" src="https://i.postimg.cc/FRwYSCsf/purple-leather-notebook-black-pen-and-brown-branches-816527.jpg" alt="book">
-                     <div class="card-body">
-                         <h5 class="card-title text-center font-weight-bold">AMORE</h5>
-                         <p class="card-text text-center">Check it</p>
-                     </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 p-3 mb-3">
-              <div class="card">
-                 <img class="card-img" src="https://i.postimg.cc/s2XxNCMQ/red-rose-flowers-bouquet-on-white-surface-beside-spring-book-141.jpg" alt="book">
-                     <div class="card-body">
-                         <h5 class="card-title text-center font-weight-bold">AMORE</h5>
-                         <p class="card-text text-center">Check it</p>
-                     </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 p-3 mb-3">
-              <div class="card">
-                 <img class="card-img" src="https://i.postimg.cc/kXzb84G1/brown-ceramic-cup-beside-notebook-and-pen-2180092.jpg" alt="book">
-                     <div class="card-body">
-                         <h5 class="card-title text-center font-weight-bold">AMORE</h5>
-                            <p class="card-text text-center">Check it</p>
-                     </div>
-              </div>
-          </div>
-     </div>
    </div>
+</header>
+<section class="services py-5 color">
+  <div class="container">
+    <div class="title  text-center p-3 mb-3 mt-5">
+       <h3 class="font-weight-bold">Services</h3>
+       <h5 class="text-secondary">Proin iaculis purus consequat sem cure</h5>
+     </div>
+      <div class="row ">
+          <div class="col-md-4 col-xs-1 ">
+              <div class="card px-5 mb-3 mt-3  border-0 ">
+                <div class="col-md-2 d-xs-none pos">
+                    <i class="ci fas fa-laptop p-3 bg-warning text-white rounded-circle  text-center"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold text-center">Responsive Web</h5>
+                 <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+             </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-xs-1 ">
+              <div class="card px-5 mb-3 mt-3  border-0 ">
+                <div class="col-md-2 d-xs-none pos">
+                    <i class="ci fas fa-lock p-3 bg-warning text-white rounded-circle justify-content-center"></i>
+                </div>
+                  <div class="card-body">
+                      <h5 class="card-title font-weight-bold text-center">Web Security</h5>
+                     <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-xs-1 ">
+              <div class="card px-5 mb-3 mt-3 border-0">
+                <div class="col-md-2 d-xs-none pos">
+                    <i class="ci fas fa-cart-plus p-3 bg-warning text-white rounded-circle"></i>
+                </div>
+                  <div class="card-body">
+                      <h5 class="card-title font-weight-bold text-center">E-commerse</h5>
+                      <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+ </div>
+</section>
+<section class="portfolio bg-light">
+    <div class="container">
+        <div class="title text-center p-3 mb-3 mt-3">
+            <h3 class="font-weight-bold  mt-5">OUR PORTFOLIO</h3>
+            <h5>Proin iaculis purus consequat sem cure</h5>
+       </div>
+   <div class="row">
+       <div class="col-sm-6 col-lg-4 p-3 mb-3">
+           <div class="card">
+              <img class="card-img" src="https://i.postimg.cc/kXzb84G1/brown-ceramic-cup-beside-notebook-and-pen-2180092.jpg" alt="book">
+                  <div class="card-body">
+                      <h5 class="card-title text-center font-weight-bold">AMORE</h5>
+                         <p class="card-text text-center">Check it</p>
+                  </div>
+           </div>
+       </div>
+       <div class="col-sm-6 col-lg-4 p-3 mb-3">
+          <div class="card">
+              <img class="card-img" src="https://i.postimg.cc/qBYRDFrg/analog-binder-blank-book-236111.jpg" alt="book">
+                   <div class="card-body">
+                      <h5 class="card-title text-center font-weight-bold">AMORE</h5>
+                      <p class="card-text text-center">Check it</p>
+                   </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 p-3 mb-3 ">
+          <div class="card">
+              <img class="card-img" src="https://i.postimg.cc/C15hmG6j/black-ball-point-pen-with-brown-spiral-notebook-733852.jpg" alt="book">
+                  <div class="card-body">
+                      <h5 class="card-title text-center font-weight-bold">AMORE</h5>
+                      <p class="card-text text-center">Check it</p>
+                  </div>
+          </div>
+       </div>
+       <div class="col-sm-6 col-lg-4 p-3 mb-3">
+           <div class="card">
+               <img class="card-img" src="https://i.postimg.cc/FRwYSCsf/purple-leather-notebook-black-pen-and-brown-branches-816527.jpg" alt="book">
+                   <div class="card-body">
+                      <h5 class="card-title text-center font-weight-bold">AMORE</h5>
+                      <p class="card-text text-center">Check it</p>
+                   </div>
+           </div>
+       </div>
+       <div class="col-sm-6 col-lg-4 p-3 mb-3">
+           <div class="card">
+              <img class="card-img" src="https://i.postimg.cc/s2XxNCMQ/red-rose-flowers-bouquet-on-white-surface-beside-spring-book-141.jpg" alt="book">
+                  <div class="card-body">
+                      <h5 class="card-title text-center font-weight-bold">AMORE</h5>
+                      <p class="card-text text-center">Check it</p>
+                  </div>
+           </div>
+       </div>
+       <div class="col-sm-6 col-lg-4 p-3 mb-3">
+           <div class="card">
+              <img class="card-img" src="https://i.postimg.cc/kXzb84G1/brown-ceramic-cup-beside-notebook-and-pen-2180092.jpg" alt="book">
+                  <div class="card-body">
+                      <h5 class="card-title text-center font-weight-bold">AMORE</h5>
+                      <p class="card-text text-center">Check it</p>
+                  </div>
+           </div>
+       </div>
+  </div>
+</div>
  </section>
  <section class="panel-footer py-3">
      <div class="container">
@@ -154,13 +152,13 @@
              </div>
              <div class="col-md-4 d-flex justify-content-center">
                  <div class="row">
-                   <ul class="social">
-           <li > <a href="#"><i class="fab fa-facebook-f bg-warning text-white rounded-circle"></i></a></li>
-           <li> <a href="#"><i class="fab fa-instagram bg-warning text-white rounded-circle"></i></a></li>
-           <li> <a href="#"><i class="fab fa-twitter bg-warning text-white rounded-circle"></i></a></li>
-       </ul>
+                     <ul class="social">
+                         <li > <a href="#"><i class="fab fa-facebook-f bg-warning text-white rounded-circle"></i></a></li>
+                         <li> <a href="#"><i class="fab fa-instagram bg-warning text-white rounded-circle"></i></a></li>
+                         <li> <a href="#"><i class="fab fa-twitter bg-warning text-white rounded-circle"></i></a></li>
+                     </ul>
                  </div>
-              </div>
+             </div>
          </div>
      </div>
- </section>
+</section>
